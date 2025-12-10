@@ -1,0 +1,40 @@
+.nav{
+    min-width: 100%;
+    max-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.85;
+    margin-left: 1%;
+    color: var(--color-text);
+}
+
+.logo-top{
+    margin: 0;
+}
+
+.logo-bottom{
+    margin: 0;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.list li button{
+    font-size: large;
+    font-weight: 7  00;
+    min-height: 50px;
+    cursor: pointer;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 15px;
+}

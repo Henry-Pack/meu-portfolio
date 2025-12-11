@@ -30,11 +30,11 @@
 
 .list li button{
     font-size: large;
-    font-weight: 7  00;
+    font-weight: 700;
     min-height: 50px;
     cursor: pointer;
     color: var(--color-text);
     background-color: var(--color-primary);
     border: none;
-    border-radius: 15px;
+    border-radius: 6px;
 }

@@ -22,9 +22,9 @@ const itemVariant = {
 
 
   return (
-    <motion.nav
+    <nav
         className="nav"
-        initial={{}}
+        
     >
         
         
@@ -56,7 +56,7 @@ const itemVariant = {
 
 
 
-    </motion.nav>
+    </nav>
   )
 }
 
